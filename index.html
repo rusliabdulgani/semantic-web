@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home ICI</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="public/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-1">
+          <a href="#"><img class="logo" src="public/img/ici.png" alt=""></a>
+        </div>
+        <div class=" header col-md-11">
+          <h2>INTER CLUB INDONESIA</h2>
+          <p>OFFICIAL FC INTER SUPPORTERS CLUB</p>
+        </div>
+      </div>
+      <nav class="navbar navbar-inverse">
+        <div class="container">
+          <div class="row">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">HOME</a></li>
+              <li><a href="ici-news.html">ICI NEWS</a></li>
+              <li><a href="kolom.html">KOLOM</a></li>
+              <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" >ABOUT US <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li class="menu-drop"><a class="drop-menu" href="susunan-pengurus.html">Susunan Pengurus</a></li>
+                  <li class="menu-drop"><a class="drop-menu" href="sejarah-ici.html">Sejarah ICI</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+      <div class="container">
+        <div class="row">
+          <div class="container">
+            <div class="col-md-2">
+              <h4>Berita Utama</h4>
+            </div>
+            <div class="col-md-10">
+            </div>
+          </div>
+      </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="container">
+            <div class="col-md-12">
+              <h3 class="header-berita">Dalbert Tes Medis Hari Ini</h3>
+              <img class="preview" src="https://theworldgame.sbs.com.au/sites/sbs.com.au.theworldgame/files/styles/full/public/images/d/a/dalbert-cropped_1tjr23s647kra1tyfsap0bgml2.jpg?itok=VIXyIYT_&mtime=1502192020" alt="">
+              <p>Langkah Inter Milan untuk bisa mendapatkan jasa Dalbert selangkah lagi akan tercapai. Sang pemain saat ini baru saja menjalani tes medis sebagai syarat sebelum meneken kontrak dengan Inter.</p>
+              <p>  
+                Dalbert sudah datang di Italia sejak hari Senin (7/8) yang lalu. Ia kabarnya sudah menyelesaikan kesepakatan kontrak dengan Inter, meski belum ada tanda tangan yang dibubuhkan dalam kesepakatan kontrak kerja.
+              </p>
+              <p>
+                Pada hari Selasa (8/8) waktu setempat, Dalbert menjalani tes medis sebagai salah satu bagian dari syarat sebelum meneken kontrak. Inter pun memberikan pengumuman terbuka ihwal jalannya tes medis pemain asal Brasil ini. Inter sendiri membeli Dalbert dari klub asal Prancis, Nice. Kabarnya, Nerazzurri harus merogoh koceknya hingga 20 juta euro untuk bisa membeli Dalbert. Selain itu, Inter juga harus membayar beberapa bonus kepada Nice dan Dalbert sesuai dengan prestasi yang ia capai.
+              </p>
+              <p>
+              Dalbert akan mendapatkan kontrak dengan durasi lima tahun. Pemain yang musim lalu bermain dengan Mario Balotelli di Nice ini akan mendapatkan bayaran senilai 1,2 juta euro dari Inter setiap musimnya. 
+              </p>  
+              <p>Sumber : Bola.net</p>
+          </div>
+        </div>
+      </div>
+          </div>
+    <nav class="navbar navbar-inverse navbar-fixed-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4"></div>
+          <div class="col-md-4">
+            <h5>Copyright Inter Club Indonesia 2017</h5>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <script>
+      var headerHeight = 200;
+      $(window).bind('scroll', function () {
+      if ($(window).scrollTop() > headerHeight) {
+        $('#myNav').removeClass('navbar-top');
+        $('#myNav').addClass('navbar-fixed-top');
+      } else {
+        $('#myNav').removeClass('navbar-fixed-top');
+        $('#myNav').addClass('navbar-top');
+      }
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Berita ICI</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="public/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-1">
+          <a href="index.html"><img class="logo" src="public/img/ici.png" alt=""></a>
+        </div>
+        <div class=" header col-md-11">
+          <h2>INTER CLUB INDONESIA</h2>
+          <p>OFFICIAL FC INTER SUPPORTERS CLUB</p>
+        </div>
+      </div>
+      <nav class="navbar navbar-inverse">
+        <div class="container">
+          <div class="row">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html">HOME</a></li>
+              <li class="active"><a href="#">ICI NEWS</a></li>
+              <li><a href="kolom.html">KOLOM</a></li>
+              <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" >ABOUT US <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li class="menu-drop"><a class="drop-menu" href="susunan-pengurus.html">Susunan Pengurus</a></li>
+                  <li class="menu-drop"><a class="drop-menu" href="sejarah-ici.html">Sejarah ICI</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+      <div class="container">
+        <div class="row">
+          <div class="container">
+            <div class="col-md-2">
+              <h4>Berita Seputar ICI</h4>
+            </div>
+            <div class="col-md-10">
+            </div>
+          </div>
+      </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="container">
+            <div class="col-md-12">
+              <h3 class="header-berita">Munas IV Inter Club Indonesia</h3>
+              <img class="preview" src="public/img/munas-ici.jpeg" alt="">
+              
+              <p>MUSYAWARAH NASIONAL IV INTER CLUB INDONESIA</p>
+              <p>Hotel Halogen Sidoarjo, 23-24 September 2017
+                
+                “BERSATU DALAM PERBEDAAN, BERKARYA DEMI MASA DEPAN!”
+                
+                Open Registrasi 12 Juli 2017 – 12 Agustus 2017
+              </p>
+              <table>
+                <tr>
+                  <td>Biaya Registrasi </td>
+                  <td> Korwil / Korda = IDR 350.000</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td> Umum = IDR 400.000 ( Member Only )</td>
+                </tr>
+                <tr>
+                  <td>Include </td>
+                  <td>Penginapan, konsumsi, merchandise, Jasa antar jemput, Football Cup Anniv ICI ke 14</td>
+                </tr>
+              </table>
+              <p>
+                Transfer ke BCA nomor rekening 3254441444 a.n Andi Yusuf Maulana
+              </p>
+              <p>
+                Informasi dan Pendaftaran :
+                Sigit – 089530822076 / 081333461908
+              </p>
+              <p>
+                *Memo Internal Inter Club Indonesia terkait hasil perubahan lokasi Munas IV <a class="link" href="https://goo.gl/1SwZx1">Link</a>  
+              </p>
+            </div>
+          </div>
+        </div>
+          </div>
+    <nav class="navbar navbar-inverse navbar-fixed-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4"></div>
+          <div class="col-md-4">
+            <h5>Copyright Inter Club Indonesia 2017</h5>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <script>
+      var headerHeight = 200;
+      $(window).bind('scroll', function () {
+      if ($(window).scrollTop() > headerHeight) {
+        $('#myNav').removeClass('navbar-top');
+        $('#myNav').addClass('navbar-fixed-top');
+      } else {
+        $('#myNav').removeClass('navbar-fixed-top');
+        $('#myNav').addClass('navbar-top');
+      }
+      });
+    </script>
+  </body>
+</html>
